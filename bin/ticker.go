@@ -1,8 +1,8 @@
 package main
 
 import (
-	"betagon/pkg/producers"
 	"github.com/rhiaqey/common-go/pkg/producer"
+	"github.com/rhiaqey/producers-go/pkg/producers"
 )
 
 func main() {

@@ -1,0 +1,43 @@
+{
+    "version": "0.2",
+    "ignorePaths": [],
+    "dictionaryDefinitions": [
+        {
+            "name": "custom-dictionary",
+            "path": "./.cspell/custom-dictionary.txt",
+            "addWords": true
+        }
+    ],
+    "dictionaries": [
+        "custom-dictionary"
+    ],
+    "words": [
+        "aarch",
+        "anson",
+        "azurecr",
+        "azuretools",
+        "btop",
+        "devcontainer",
+        "devcontainers",
+        "devwasm",
+        "eitsupi",
+        "fastping",
+        "ipaddr",
+        "jsonschema",
+        "jungaretti",
+        "protoc",
+        "rhiaqey",
+        "rustc",
+        "websockets",
+        "xack",
+        "xadd",
+        "xdel",
+        "xread",
+        "xreadgroup",
+        "xrevrange",
+        "xstream",
+        "xtrim"
+    ],
+    "ignoreWords": [],
+    "import": []
+}
