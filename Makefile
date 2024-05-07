@@ -21,12 +21,6 @@ prod: build
 	@go build -o out/ticker -ldflags "-s -w" bin/ticker.go
 	ls -lah out/ticker
 
-.PHONY: prod-amd64
-prod-amd64:
-	GOOS=linux \
- 	GOARCH=amd64 \
-		go build -o out/ticker-amd64 -ldflags "-s -w" bin/ticker.go
-
 .PHONY: hub
 hub:
 	docker run -it --rm --name hub -p 6379:6379 \
