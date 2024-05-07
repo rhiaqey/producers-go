@@ -1,0 +1,4 @@
+github.com/rhiaqey/common-go v0.0.0-20240506130717-978a1686486c h1:DZUkxIxaU3m7SMqzaitH0+FpbEM42c1FzLMDVgzc1p0=
+github.com/rhiaqey/common-go v0.0.0-20240506130717-978a1686486c/go.mod h1:pb2BkCNPu5xK7CE615qzikRACsdQ96djMnwkJ7xP8to=
+github.com/rhiaqey/sdk-go v0.0.0-20240506124842-2f64b832d5e8 h1:rSF81cX976Gde1jn2jmv1cKRnsE9KhfdPUimmRUScqE=
+github.com/rhiaqey/sdk-go v0.0.0-20240506124842-2f64b832d5e8/go.mod h1:9xi1TkPKvTQVG99O8qhf9JhQcqoJ7gQGUqAy3H6JtDw=
