@@ -2,9 +2,10 @@ package producers
 
 import (
 	"fmt"
-	"github.com/rhiaqey/sdk-go/pkg/sdk"
 	"log"
 	"time"
+
+	"github.com/rhiaqey/sdk-go/pkg/sdk"
 )
 
 func defaultInterval() uint64 {
@@ -73,15 +74,11 @@ func (t *Ticker) SetSettings(config interface{}) {
 }
 
 func (t *Ticker) Schema() []byte {
-	return []byte(`{
-		
-	}`)
+	return []byte(`{}`)
 }
 
 func (t *Ticker) Metrics() []byte {
-	return []byte(`{
-		
-	}`)
+	return []byte(`{}`)
 }
 
 func (t *Ticker) Kind() string {
